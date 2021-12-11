@@ -1,0 +1,144 @@
+body  
+{  
+    margin: 0;  
+    padding: 0;   
+    font-family:serif;  
+}  
+.login{  
+        width: 382px;  
+        overflow: hidden;  
+        margin: auto;  
+        margin: 18 0 0 450px;  
+        padding: 70px;  
+        background-color: #B6B6B4;  
+        border-radius: 15px ; 
+        opacity: 80%; 
+        
+        box-shadow:10px 2px 10px black;
+}  
+
+h3{  
+    text-align: center;  
+    color: white;  
+    padding: 2px; 
+    text-shadow: 1px 2px 3px black;
+}  
+
+
+
+h2{  
+    text-align: center;
+    width: auto;  
+    color: white;  
+    padding: 18px; 
+    text-shadow: 1px 2px 3px black; 
+    opacity: 50%;
+}  
+label{  
+    color: black;  
+    font-size: 17px;
+    text-shadow: none;  
+}  
+#Uname{  
+    width: 300px;  
+    height: 30px;  
+    border: none;  
+    border-radius: 3px;  
+    padding-left: 8px;
+    opacity: 90%  
+}  
+#Pass{  
+    width: 300px;  
+    height: 30px;  
+    border: none;  
+    border-radius: 3px;  
+    padding-left: 8px;  
+      
+}  
+#log{  
+    width:240px;  
+    height: 30px;  
+    border:2px solid black;
+    margin-right: 100px;
+    border-radius: 17px;
+    left: 100px; 
+    color: black; 
+    text-align:center;
+    text-decoration: none;
+    font-size: 20px; 
+    font-family:serif;
+    background-color: white;
+}  
+
+#log:hover{
+
+    color: red;
+}
+
+span{  
+    color: white;  
+    font-size: 17px; 
+    font-family: serif 
+    
+}  
+a{  
+    float: right;
+    color: black;  
+    background-color: none;
+    font-family: serif; 
+    
+    text-decoration: none;  
+}  
+
+
+
+/* Style the links inside the sidenav */
+#mySidenav a {
+  position: absolute; /* Position them relative to the browser window */
+  left: -115px; /* Position them outside of the screen */
+  transition: 0.3s; /* Add transition on hover */
+  padding: 18px; /* 15px padding */
+  width: 100px; /* Set a specific width */
+  text-decoration: none; /* Remove underline */
+  font-size: 15px; /* Increase font size */
+  color: black,white,black; /* White text color */
+  border-radius: 0 5px 5px 0; /* Rounded corners on the top right and bottom right side */
+font-family: serif;
+}
+
+#mySidenav a:hover {
+  left: 0; /* On mouse-over, make the elements appear as they should */
+}
+
+/* The about link: 20px from the top with a green background */
+#about {
+  top: 20px;
+  background-color:  #00cc00;
+  text-align: 20px left;
+
+}
+#snap {
+  top: 80px;
+  background-color:#ffff00;
+  text-align: 20px left;
+  color: black;
+
+}
+#insta {
+  top: 140px;
+  background-color: #8c3899;
+  text-align: 20px left;
+
+}
+
+#tweter {
+  top: 200px;
+  background-color: #3399ff;
+  text-align: 20px left;
+
+}
+
+.ss{
+  font-size: 19px;
+  text-align: center;
+}
